@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para títulos principales */
+        h1, h2 {
+            font-weight: bold; /* Negrita */
+            text-align: center; /* Centrado */
+        }
+
+        /* Estilo para imágenes */
+        .menu-img {
+            width: 100%; /* Asegura que las imágenes se adapten a su contenedor */
+            height: 200px; /* Altura uniforme */
+            object-fit: cover; /* Recorta proporcionalmente para llenar el espacio */
+        }
+    </style>
+</head>
+<body>
+    <header class="text-white text-center py-4 bg-dark">
+        <h1>Restaurante Neblinas</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <!-- Sección de Inicio -->
+        <section id="home" class="mb-5 text-center">
+            <h2>Bienvenidos a Nuestro Restaurante Neblinas</h2>
+            <p>Disfruta de la mejor comida con ingredientes frescos y un servicio excepcional.</p>
+        </section>
+
+        <!-- Sección de Menú -->
+        <section id="menu" class="mb-5">
+            <h2>Nuestros Productos</h2>
+
+            <!-- Desayunos -->
+            <h3>Desayunos</h3>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/continental.jpg" class="menu-img" alt="Desayuno 1">
+                    <h4>Desayuno Continental</h4>
+                    <p>Incluye café, jugo de naranja, croissants, panecillos y mermelada.</p>
+                    <p><strong>Precio: $27,999 COP</strong></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/Americano.jpg" class="menu-img" alt="Desayuno 2">
+                    <h4>Desayuno Americano</h4>
+                    <p>Huevos revueltos, tocino, pan tostado, papas fritas y café.</p>
+                    <p><strong>Precio: $35,999 COP</strong></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/vegano.jpg" class="menu-img" alt="Desayuno 3">
+                    <h4>Desayuno Vegano</h4>
+                    <p>Avena con frutas, jugo de frutas natural y tostadas integrales.</p>
+                    <p><strong>Precio: $29,999 COP</strong></p>
+                </div>
+            </div>
+
+            <!-- Almuerzos -->
+            <h3>Almuerzos</h3>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/pollo a la parrila.jpg" class="menu-img" alt="Almuerzo 1">
+                    <h4>Pollo a la Parrilla</h4>
+                    <p>Pollo a la parrilla acompañado de ensalada verde, papas al gusto y arroz.</p>
+                    <p><strong>Precio: $49,999 COP</strong></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/cesar con pollo.jpg" class="menu-img" alt="Almuerzo 2">
+                    <h4>Ensalada César con Pollo</h4>
+                    <p>Lechuga, croutones, aderezo César y pechuga de pollo a la plancha.</p>
+                    <p><strong>Precio: $42,000 COP</strong></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/boloñesa.jpg" class="menu-img" alt="Almuerzo 3">
+                    <h4>Pasta Bolognesa</h4>
+                    <p>Pasta con salsa bolognesa de carne molida, tomate, albahaca y queso parmesano.</p>
+                    <p><strong>Precio: $46,000 COP</strong></p>
+                </div>
+            </div>
+
+            <!-- Cenas -->
+            <h3>Cenas</h3>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/res.jpg" class="menu-img" alt="Cena 1">
+                    <h4>Filete de Res</h4>
+                    <p>Filete de res jugoso acompañado de puré de papas, zanahorias glaseadas y ensalada.</p>
+                    <p><strong>Precio: $73,999 COP</strong></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/Robalo horno.jpg" class="menu-img" alt="Cena 2">
+                    <h4>Robalo al Horno</h4>
+                    <p>Filete de robalo al horno con una guarnición de verduras salteadas y arroz basmati.</p>
+                    <p><strong>Precio: $75,999 COP</strong></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="resources/img/images.jpg" class="menu-img" alt="Cena 3">
+                    <h4>Pizza Margherita</h4>
+                    <p>Pizza con tomate, mozzarella fresca, albahaca y aceite de oliva extra virgen.</p>
+                    <p><strong>Precio: $56,000 COP</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Acerca de -->
+        <section id="about" class="mb-5">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos un restaurante especializado en ofrecer comida de calidad con un toque único. Todos nuestros ingredientes son frescos y seleccionados cuidadosamente.</p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="text-white text-center py-5 bg-dark">
+        <p>&copy; 2024 Restaurante. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
